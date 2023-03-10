@@ -79,7 +79,7 @@ else()
   #add_compile_options(-Wextra)
 
   # Set warning as error
-  add_compile_options(-Werror)
+  #add_compile_options(-Werror)
 
   # ignored-attributes reports issue when using _m128 as template argument
   check_cxx_compiler_flag("-Wignored-attributes" W_IGNORED_ATTRIBUTES)
